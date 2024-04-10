@@ -24,7 +24,7 @@ class Tool extends BaseTool
      *
      * @return \Illuminate\View\View
      */
-    public function renderNavigation()
+    public function renderNavigation(): \Illuminate\View\View|string
     {
         return view('nova-log-viewer::navigation');
     }
